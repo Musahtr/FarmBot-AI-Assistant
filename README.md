@@ -22,8 +22,7 @@ FarmBot leverages Google Dialogflow's powerful Natural Language Understanding (N
 This project is primarily configured within the Google Dialogflow console, with the custom logic implemented in a Python script.
 
  Dialogflow Agent: Configured in the Dialogflow web console (Intents, Entities, Fulfillment settings).
- `FarmBot_Fulfillment_Colab.ipynb`: (Or whatever you name your Colab notebook)
-     Contains the Python Flask application (`app.py` equivalent) acting as the webhook.
+ `
      Includes the in-memory `FARMING_KNOWLEDGE_BASE`.
      Uses `pyngrok` to create a public URL for the webhook.
  `requirements.txt`: Lists all Python dependencies.
